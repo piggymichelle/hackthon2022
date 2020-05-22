@@ -4,8 +4,6 @@ import App from '../App';
 import Content from '../mainContent'
 import Modal from '../Modal'
 import { shallow } from 'enzyme';
-import { wrap } from 'module';
-
 
 describe('my app test cases', ()=>{
   //app test
@@ -21,7 +19,7 @@ describe('my app test cases', ()=>{
   });
 
   it('snapshot test',()=>{
-    const wrapper = shallow(<App />)
+    const wrapper = shallow(<Content />)
     expect(wrapper).toMatchSnapshot()
   })
   //modal test
