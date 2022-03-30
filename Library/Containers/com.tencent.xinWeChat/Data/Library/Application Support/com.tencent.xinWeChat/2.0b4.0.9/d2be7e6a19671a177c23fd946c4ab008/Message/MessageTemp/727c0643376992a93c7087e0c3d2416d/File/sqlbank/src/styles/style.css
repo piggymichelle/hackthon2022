@@ -1,0 +1,9 @@
+/*@import url('https://fonts.font.im/css?family=Kirang+Haerang');*/
+/*@import url('https://fonts.font.im/css?family=Hanalei+Fill');*/
+/*@import url('https://fonts.font.im/css?family=Teko');*/
+@import url('https://fonts.font.im/css?family=Roboto');
+.app-con{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
